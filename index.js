@@ -1,11 +1,12 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const urlRoutes = require('./routes/urlRoutes');
 const connectDB = require('./config/db');
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
 const cors = require('cors');
+const path = require('path');
+
 
 dotenv.config();
 connectDB();
@@ -27,6 +28,10 @@ app.use(
 
 // Routes
 app.use('/', urlRoutes);
+
+app.get('/', (req, res) => {
+ res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 // Start Server
 const PORT = process.env.PORT || 5000;
