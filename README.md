@@ -196,10 +196,6 @@ Feel free to open issues or PRs!
 
 Built with ❤️ by [Shivank Kumar]
 
-yaml
-Copy
-Edit
-
 ---
 
 
