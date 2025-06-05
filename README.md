@@ -4,7 +4,7 @@ A scalable URL shortening service backend similar to Bitly or TinyURL, built wit
 
 ## Deployed-Link
 
-Link :- 
+Link :-  https://url-shortner-assignment.onrender.com
 
 
 ## PostMan Collection
