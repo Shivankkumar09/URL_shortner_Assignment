@@ -141,7 +141,7 @@ Error:
 }
 ```
 
-Error Handling
+# Error Handling
 Proper HTTP status codes returned:
 
 400 Bad Request for invalid inputs
@@ -150,20 +150,22 @@ Proper HTTP status codes returned:
 
 500 Internal Server Error for unexpected errors
 
-Security & Validation
+# Security & Validation
 URL validation to ensure valid URLs
 
 Rate limiting to protect from abuse (basic implementation)
 
 Sanitization to prevent XSS/SQL injection
 
-Environment Variables
+# Environment Variables
 Variable	Description	Example
+```bash
 PORT	Port on which server runs	5000
 MONGO_URI	MongoDB connection string	mongodb://localhost:27017/urlshortener
 BASE_URL	Base URL for short links	http://localhost:5000
+```
 
-Optional Features to Add
+# Optional Features to Add
 URL expiration after 30 days or custom expiry
 
 Authentication for custom alias creation
