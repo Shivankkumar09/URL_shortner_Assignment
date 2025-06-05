@@ -4,12 +4,12 @@ A scalable URL shortening service backend similar to Bitly or TinyURL, built wit
 
 ## Deployed-Link
 
-Link :-
+Link :- 
 
 
 ## PostMan Collection
 
-Link :- 
+Link :- https://xyz555-3569.postman.co/workspace/assignment_binmile~9c9ca034-df6d-4825-8c6b-89cfdcb20599/collection/36729152-a0eca06b-bc65-411f-9f14-db10d3ff5233?action=share&creator=36729152
 
 ## Features
 
