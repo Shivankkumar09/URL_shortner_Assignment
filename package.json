@@ -1,0 +1,30 @@
+{
+  "name": "url_shortner_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Shivankkumar09/URL_shortner_Assignment#readme",
+  "bugs": {
+    "url": "https://github.com/Shivankkumar09/URL_shortner_Assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivankkumar09/URL_shortner_Assignment.git"
+  },
+  "license": "ISC",
+  "author": "shivank",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.15.1",
+    "nanoid": "^5.1.5",
+    "valid-url": "^1.0.9"
+  }
+}
